@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5904D34E-669D-A075-F33D-1920EE61BBD2" name="DIM_CATEGORIA">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>DAEE936D-7266-7795-6F50-751851287BF3</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_CATEGORIA" id="9F775805-6D9A-D439-BF02-E170716E15A7">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>F964B503-6A64-93CC-AD54-A0CEBE5FAF4D</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CATEGORIA" id="0C6ED758-7EA9-9E43-86A6-AA2D3A7E11AD">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>D43CDA3D-4C0B-3911-1CBF-E622F0E1B3BF</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_CATEGORIA" id="2B71BF7D-B12F-DF8A-69EB-67D8688AE32F">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>5CFF8F6B-5927-F390-D41F-44548989C40E</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEG_CATEGORIA" id="06007E57-41C3-4A01-3E8D-9F34B2002DE4">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>87B6EF95-568D-1752-C81E-3F73D13F4FD2</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_SUBCATEGORIA" id="6D859855-7B64-22FB-6F59-279BC351A4AF">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>C22E5E9E-CD1B-FAA0-E5B3-E34A3C53EA6B</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIORIDADE_ABASTECIMENTO" id="7C182A5C-E25B-46C1-E362-C9E84D5FBD15">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>C9E765C4-8DB6-4F11-07B9-F360612886EE</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AB5835D-E262-15BD-91AA-96B37B8AF9B9" name="DIM_CATEGORIA_PK">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>9FDDAB4E-AE47-395B-18FC-BFF2C95CE35A</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F775805-6D9A-D439-BF02-E170716E15A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

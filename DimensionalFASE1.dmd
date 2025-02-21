@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DimensionalFASE1" id="55962216-CF8A-71E9-734E-61E75E750E7C" version="3.5">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 21:32:38 UTC</createdTime>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>55962216-CF8A-71E9-734E-61E75E750E7C</designId>
+</OSDM_Design>

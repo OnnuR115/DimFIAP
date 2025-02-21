@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C60016E-4E9F-5ED5-6E10-1D01B5219FD6" name="DIM_PRODUTO">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 22:39:46 UTC</createdTime>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_PRODUTO" id="912837EC-BA75-068F-633D-10DFB839B6A2">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 22:40:28 UTC</createdTime>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PRODUTO" id="8DF6FA5B-9893-D9E2-A936-35ABCC78C6B1">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 22:40:52 UTC</createdTime>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90 BYTE</dataTypeSize>
+<ownDataTypeParameters>90 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MARCA_PRODUTO" id="D84EFF83-99F7-1058-1625-C05A17682C6B">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 22:41:28 UTC</createdTime>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_PRODUTO" id="8AC30649-41C0-3CB8-E71A-366A09D0E8BB">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 22:42:05 UTC</createdTime>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_PRODUTO" id="E5A186AE-64CD-6BAE-F668-0CAD154294DF">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 22:42:31 UTC</createdTime>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COR_PRODUTO" id="C41E39E0-C1B2-F0F6-151F-04F2F6B3D6D2">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 22:43:12 UTC</createdTime>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIM_FIS_PRODUTO" id="F06C13EE-0A20-E027-F0D4-8C76DA66AF03">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 22:45:13 UTC</createdTime>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BCCD9506-FAA5-91EC-6A1E-720C8578CDC0" name="DIM_PRODUTO PK">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 22:40:50 UTC</createdTime>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>912837EC-BA75-068F-633D-10DFB839B6A2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

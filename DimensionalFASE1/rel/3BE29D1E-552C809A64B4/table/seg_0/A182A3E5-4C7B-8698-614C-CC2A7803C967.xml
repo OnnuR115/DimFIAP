@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A182A3E5-4C7B-8698-614C-CC2A7803C967" name="DIM_ENDEREÇO">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>9008E366-A704-B352-053D-FFC11EB24156</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_ENDERECO" id="29D1863C-1268-0D23-67E4-78AA522C33F4">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>FE2AC41C-1617-83C0-41F7-D77C8AC129EF</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_BAIRRO" id="2617D85D-DC21-75D7-3129-3CE8CE972E98">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>A23DD785-2BAB-6B02-7AA0-A06215E3706A</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CIDADE" id="D3E13153-926A-09C1-84BB-EB34B1ED4B3A">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>2F8E6584-4BD5-4E56-4509-35D562BDBBAC</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_ESTADO" id="FE895D8F-3290-2479-9EFA-72D88DE199D0">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>B9AD253B-9495-9D96-CAD0-AF0852206236</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SG_ESTADO" id="0BFF6C5D-E125-5A30-6689-51AE25C8E0D8">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>59DD1E5A-6E38-B766-9531-51B479FDF65F</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="667973F4-B829-5FFC-F16A-1EC8023D312C" name="DIM_ENDEREÇO_PK">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>D01A72FA-7C76-BCAA-9A63-0E95CC3C4536</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29D1863C-1268-0D23-67E4-78AA522C33F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

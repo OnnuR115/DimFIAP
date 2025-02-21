@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3BEEAB19-D7B7-0634-880C-4006CF20615B" name="DIM_PROMOCAO">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>25DB5E95-F0BD-D28F-89B2-F02CECE1C226</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_PROMOCAO" id="7E9FAFEC-0081-3556-0812-D5C2DF2A84A0">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>B8E4E941-63F1-B001-4A71-8D53EBC590CA</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_PROMOCAO" id="0F17842B-D3AC-C8D1-414C-7657FFFE2576">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>9053CE2C-C1AB-020A-276D-74E0867C90AA</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90 BYTE</dataTypeSize>
+<ownDataTypeParameters>90 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_INICIO" id="BC000D41-898E-F870-DCB2-BC41905FEA3D">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>16CE3347-80FD-5B23-95A1-BFCF7122E12B</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_TERMINO" id="D1097C24-C8A6-4D91-DE02-26E1CEB479C0">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>6706657A-9B4F-501D-4D8C-BCD25F88898A</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_PROMOCAO" id="D11CBB85-4469-9029-0764-9D23DE68F253">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>1CF5A650-6A17-294D-D442-783CF5B51CF9</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6E389F2-3EB1-1E60-33FD-869DAB554633" name="DIM_PROMOCAO_PK">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>22E6F2BA-B27A-0E05-E322-12764F1087B0</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E9FAFEC-0081-3556-0812-D5C2DF2A84A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

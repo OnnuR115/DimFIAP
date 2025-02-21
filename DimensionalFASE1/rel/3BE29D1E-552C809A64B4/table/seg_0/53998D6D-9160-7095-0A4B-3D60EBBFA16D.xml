@@ -1,0 +1,269 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53998D6D-9160-7095-0A4B-3D60EBBFA16D" name="FTO_ESTOQUE">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>07F4CE29-2BD7-89FD-E2FB-DDF40024DF4C</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<typeID>1</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_PRODUTO" id="718415BA-A4A8-E5A3-6A46-4F4B03D8114E">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>FD14E8F9-6B6E-C96C-9D2C-7A61E0924B64</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA495891-0D09-8983-3E45-9F06BE526C4D" referredColumn="7AA7DC58-03BC-5F94-6105-EE3560A26C70"/>
+</associations>
+</Column>
+<Column name="SK_LOJA" id="4178D6ED-AF31-7DC2-FBEC-59DFA887542F">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>1D127F7B-4571-5FD5-42E0-3CF359E061B3</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CDD1694-A3FA-0EEA-CA1F-29A26B7A70FA" referredColumn="D03C2B7D-79A9-2DB9-5FC6-B39B6BC793F1"/>
+</associations>
+</Column>
+<Column name="SK_TEMPO" id="517D26BD-A887-32B2-BE07-5F1B014E172F">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>CA624ED2-669F-A212-20FE-CF1041BC1659</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1BDBA9D-B314-20B9-FD51-8CED2B1CE788" referredColumn="90AB79AF-E3FD-0A93-BD2D-EC9D62A9291F"/>
+</associations>
+</Column>
+<Column name="SK_FORNECEDOR" id="496432A8-6222-78A5-0C4D-E884C0DFD8A7">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>9C599519-1DA5-4671-99D2-BDD859E74E0E</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C8057A7-5DE2-1E6E-85AE-59DC903172D0" referredColumn="FDA9A665-6333-A44D-18BA-8028E69975AD"/>
+</associations>
+</Column>
+<Column name="SK_ENDERECO" id="6A81B8DF-8346-18F2-0D5A-4C2BC48B7650">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>B8544918-01AF-4CD5-D9D7-9E4F7335696D</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62712E5E-DACA-2357-41D1-071CFC8E5DB0" referredColumn="29D1863C-1268-0D23-67E4-78AA522C33F4"/>
+</associations>
+</Column>
+<Column name="SK_PROMOCAO" id="7EC99651-CDFD-25FB-796B-25A1F854D0B2">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>36D72812-0EF0-B720-63B4-F5033CC64025</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9187C1CC-1B0F-AB49-64AC-20801867D0D8" referredColumn="7E9FAFEC-0081-3556-0812-D5C2DF2A84A0"/>
+</associations>
+</Column>
+<Column name="SK_CATEGORIA" id="707F2294-B231-442B-32D8-08D2465F6F2F">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>35B9CD19-F2F5-A1A0-4D46-E104A5CF01A2</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07B6A623-D472-521D-0B61-B40A28832B38" referredColumn="9F775805-6D9A-D439-BF02-E170716E15A7"/>
+</associations>
+</Column>
+<Column name="ST_ESTOQUE" id="8B59DA2E-85FE-816D-1B2A-1EF668819DCB">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>FCF1D199-8E25-208B-C988-C836500769BF</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QTD_MINIMA" id="2B976DF9-F54D-56B2-EFEB-E2B36618EFD1">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>71CECA11-88E6-987E-F0BE-7C9887FC29C5</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROTATIVIDADE" id="120DE1CC-A4D2-DEED-078A-5D65F6497696">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>1E5AEA84-0F78-3628-1183-CC143BAB59F4</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QTD_PRODUTO" id="44E585E4-AAD5-1589-E4EF-FD82BE5F51CB">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>07F571CA-1A3E-7750-31AD-B60B7C7636DB</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9587EB99-7429-B03E-BA20-8A5A44DDFB5C" name="FTO_ESTOQUE_PK">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>533DB758-7D59-7F21-B7F7-9EF537A44C0A</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="718415BA-A4A8-E5A3-6A46-4F4B03D8114E"/>
+<colUsage columnID="4178D6ED-AF31-7DC2-FBEC-59DFA887542F"/>
+<colUsage columnID="496432A8-6222-78A5-0C4D-E884C0DFD8A7"/>
+<colUsage columnID="517D26BD-A887-32B2-BE07-5F1B014E172F"/>
+<colUsage columnID="6A81B8DF-8346-18F2-0D5A-4C2BC48B7650"/>
+<colUsage columnID="7EC99651-CDFD-25FB-796B-25A1F854D0B2"/>
+<colUsage columnID="707F2294-B231-442B-32D8-08D2465F6F2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FB75D3E-733A-6157-159D-9083D44E341D" name="Relation_2">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>87E1D062-85FC-31AA-9EA2-61291277C605</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="718415BA-A4A8-E5A3-6A46-4F4B03D8114E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73DBAA8A-98B2-6AF2-EE8A-4FD6AB07CF1E" name="Relation_3">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>BDBF1507-87B8-AA49-462E-8D9463EEB234</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4178D6ED-AF31-7DC2-FBEC-59DFA887542F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEDDD016-EF04-5AE7-9156-8896BE7A3EE5" name="Relation_4">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>BF1C6DF9-24DC-D533-93B6-49EFC65B7162</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="496432A8-6222-78A5-0C4D-E884C0DFD8A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EFB1E03-A624-8B39-63E2-D04FDF6FFB51" name="Relation_5">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>584D1F52-4967-1A7E-6B57-5DC7F6FD368D</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="517D26BD-A887-32B2-BE07-5F1B014E172F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B408B7E9-83E2-09DF-0E47-023FF2110157" name="Relation_6">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>CBEF36E9-00A3-C850-8084-758B6ED2367B</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A81B8DF-8346-18F2-0D5A-4C2BC48B7650"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F3C8864-CBC6-63B5-2AC1-C10862ED98B0" name="Relation_7">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>5DD78C3F-F9B6-32A7-F682-32092793E480</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EC99651-CDFD-25FB-796B-25A1F854D0B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C72F600-D410-F91E-4DCF-823295DF0773" name="Relation_8">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:54:05 UTC</createdTime>
+<generatorID>649041F9-5512-73D8-5E74-B83DDDF5E430</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="707F2294-B231-442B-32D8-08D2465F6F2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

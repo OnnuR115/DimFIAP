@@ -1,0 +1,196 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="07F4CE29-2BD7-89FD-E2FB-DDF40024DF4C" name="FTO_ESTOQUE">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:44:40 UTC</createdTime>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<typeID>1</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_PRODUTO" id="FD14E8F9-6B6E-C96C-9D2C-7A61E0924B64">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:52:05 UTC</createdTime>
+<generatorID>87E1D062-85FC-31AA-9EA2-61291277C605</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<referedAttribute>912837EC-BA75-068F-633D-10DFB839B6A2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_LOJA" id="1D127F7B-4571-5FD5-42E0-3CF359E061B3">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:52:10 UTC</createdTime>
+<generatorID>BDBF1507-87B8-AA49-462E-8D9463EEB234</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<referedAttribute>CA42F777-1316-D9E6-8AAB-4B7C78FA67A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_TEMPO" id="CA624ED2-669F-A212-20FE-CF1041BC1659">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:52:19 UTC</createdTime>
+<generatorID>584D1F52-4967-1A7E-6B57-5DC7F6FD368D</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<referedAttribute>1BFF8280-7732-32C8-5847-ED02015B3A3F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_FORNECEDOR" id="9C599519-1DA5-4671-99D2-BDD859E74E0E">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:52:15 UTC</createdTime>
+<generatorID>BF1C6DF9-24DC-D533-93B6-49EFC65B7162</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<referedAttribute>6A2E7EE2-D5FB-D6F0-CB21-BC5828204E0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_ENDERECO" id="B8544918-01AF-4CD5-D9D7-9E4F7335696D">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:52:23 UTC</createdTime>
+<generatorID>CBEF36E9-00A3-C850-8084-758B6ED2367B</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<referedAttribute>FE2AC41C-1617-83C0-41F7-D77C8AC129EF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_PROMOCAO" id="36D72812-0EF0-B720-63B4-F5033CC64025">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:52:26 UTC</createdTime>
+<generatorID>5DD78C3F-F9B6-32A7-F682-32092793E480</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<referedAttribute>B8E4E941-63F1-B001-4A71-8D53EBC590CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_CATEGORIA" id="35B9CD19-F2F5-A1A0-4D46-E104A5CF01A2">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:52:31 UTC</createdTime>
+<generatorID>649041F9-5512-73D8-5E74-B83DDDF5E430</generatorID>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<referedAttribute>F964B503-6A64-93CC-AD54-A0CEBE5FAF4D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_ESTOQUE" id="FCF1D199-8E25-208B-C988-C836500769BF">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:46:01 UTC</createdTime>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QTD_MINIMA" id="71CECA11-88E6-987E-F0BE-7C9887FC29C5">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:46:57 UTC</createdTime>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ROTATIVIDADE" id="1E5AEA84-0F78-3628-1183-CC143BAB59F4">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:47:39 UTC</createdTime>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QTD_PRODUTO" id="07F571CA-1A3E-7750-31AD-B60B7C7636DB">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:48:16 UTC</createdTime>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="533DB758-7D59-7F21-B7F7-9EF537A44C0A" name="FTO_ESTOQUE PK">
+<createdBy>bruni</createdBy>
+<createdTime>2025-02-20 23:52:05 UTC</createdTime>
+<ownerDesignName>DimensionalFASE1</ownerDesignName>
+<engineerTo>
+<item key="3BE29D1E-80A1-6B5D-A2AD-552C809A64B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD14E8F9-6B6E-C96C-9D2C-7A61E0924B64</attributeRef>
+<attributeRef>1D127F7B-4571-5FD5-42E0-3CF359E061B3</attributeRef>
+<attributeRef>9C599519-1DA5-4671-99D2-BDD859E74E0E</attributeRef>
+<attributeRef>CA624ED2-669F-A212-20FE-CF1041BC1659</attributeRef>
+<attributeRef>B8544918-01AF-4CD5-D9D7-9E4F7335696D</attributeRef>
+<attributeRef>36D72812-0EF0-B720-63B4-F5033CC64025</attributeRef>
+<attributeRef>35B9CD19-F2F5-A1A0-4D46-E104A5CF01A2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
